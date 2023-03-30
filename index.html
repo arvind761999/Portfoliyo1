@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">   
+     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+           
+            <nav>
+                <img src="Image/I3.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Projects</a> </li>
+                    <!-- <li><a href="#portfolio">My Work</a> </li> -->
+                    <li><a href="#contact">Contact</a> </li>
+                    <i class=" icon fa fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class=" icon fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="image1">
+                <div class="header-text">
+                    <p>INDIA / Web Developer</p>
+                    <h1>Hi, I'm <span>Arvind Singh</span><br> Thakur From Gwalior</h1>
+                </div>
+                <img src="Image/I16.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- == About == -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Image/I15.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I'm Arvind (Third Year) and at present I am doing B.Tech from Madhav Institue Of Technology
+                        and Science, Gwalior.
+                        My branch is ITIOT </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('interest')">Interest</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Languages:</span><br>C || C++ || Basic Python</li>
+                        </ul>
+                        <ul>
+                            <li><span>Web Development:</span><br>html || CSS || Basic JS</li>
+                        </ul>
+                        <ul>
+                            <li><span>CS Fundamentals:</span><br>DBMS || SQL || DS || Basic Excel</li>
+                        </ul>
+                        <ul>
+                            <li><span>Tools & Frameworks:</span><br>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>High School certificate</span><br>M.P. Board<br>2015-16 M.P. Convent Higher
+                                Secondary School Bari,Madhya Pradesh</li>
+                        </ul>
+                        <ul>
+                            <li><span>Intermediate Certificate</span><br>M.P. Board<br>2017-18 Excellence School Of
+                                raisen,M.P.</li>
+                        </ul>
+                        <ul>
+                            <li><span>Graduation</span><br>2020-2024 Madhav Institue Of Technology and
+                                Science,Gwalior,M.P.<br>At present Third Year Student</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="interest">
+                        <ul>
+                            <li><span>Sports</span><br>Cricket</li>
+                        </ul>
+                        <ul>
+                            <li><span>Traveling</span><br>Religious place</li>
+                        </ul>
+                        <ul>
+                            <li><span>Co-Curricular</span><br>NCC Cadet<br> Creating awareness among people about healthy lifestyle and healthy diet<br>Do Yoga & Maditation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                        <h2>E-Commerce Website</h2>
+                        <p>Most Popular E-Commerce websites availiable in this site.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <h2>Responsive Template</h2>
+                        <p>This template design only for learning purpose, in this template I have used html and css</p>
+                        <a href="file:///C:/Users/Arvind%20Singh/Desktop/Arvind/learn%20bootstrap/Projects/Responsive%20template%20Design.html">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-address-card" aria-hidden="true"></i>
+                        <h2>Responsive Card</h2>
+                        <p>In this project make three cards they are showing the information of laptop</p>
+                        <a href="file:///C:/Users/Arvind%20Singh/Desktop/Arvind/Learn%20CSS/Intern/card.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <!-- === Contact === -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p ><i class="fa-regular fa-paper-plane"></i>  contact@ArvindSingh</p>
+                    <p><i class="fa fa-phone"></i>  9179230055</p>
+                    <div class="social-icons">
+                     <a href="https://www.facebook.com/arvind.thakur.1217727"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                     <a href="https:/twitter.com/ArvindT70762580?t=PQOXYR494Du6gKNfcvn4Jg&s=09"><i class="fab fa-twitter-square"></i> </a>
+                     <a href="https://www.instagram.com/invites/contact/?i=rlrzjiaps8x4&utm_content=2rh4ry2"><i class="fab fa-instagram" ></i></a>
+                     <a href="https://www.linkedin.com/in/arvind-singh-thakur-32a302240
+                     "><i class="fab fa-linkedin"></i> </a>
+                    </div>
+                 <a href="file:///C:/Users/Arvind%20Singh/Desktop/Arvind/learn%20bootstrap/Portfolio/CV/cv.html" download class="btn btn2">See My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit " class="btn  btn2">Submit</button>
+                    </form>
+                    <span id ="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <div class="copy-right">
+    <p>Copyright @ Arvind <i class="fas fa-heart"></i>  </p>
+  </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxrr4T0FWOkxOfEfdw-eaktflCIU-OcR21jxNFUoMgmiH2ZF0MiUfbNLB6rif-PNyIV4g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
